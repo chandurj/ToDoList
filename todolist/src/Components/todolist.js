@@ -34,7 +34,7 @@ class ToDoList extends Component{
         return(
             <>
                 <h1>ToDoList</h1>
-                <form onSubmit={this.addToDO}>
+                <form onSubmit={this.addToDO}> 
                     <lable>TaskTitle:</lable>
                     <input type="text" name="taskTitle"  className='form-control'/><br/>
                     <lable>Date:</lable>
